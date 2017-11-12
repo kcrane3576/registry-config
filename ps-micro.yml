@@ -1,3 +1,13 @@
 configserver:
   name: micro config server
   status: loaded from congigserver/ps-micro.yml
+
+
+---
+spring:
+  profiles:
+    active: dev
+
+configserver:
+  name: micro config server
+  status: loaded for DEV from configserver/ps-micro.yml
