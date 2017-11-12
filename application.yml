@@ -1,0 +1,3 @@
+configserver:
+  name: micro config server
+  status: loaded from congigserver/application.yml
