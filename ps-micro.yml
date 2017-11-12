@@ -1,3 +1,0 @@
-configserver:
-  name: micro config server
-  status: loaded env:${spring.profiles.active} from configserver/ps-micro.yml
