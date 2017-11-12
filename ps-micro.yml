@@ -1,7 +1,11 @@
+---
+spring:
+  profiles:
+    active: native
+
 configserver:
   name: micro config server
-  status: loaded from congigserver/ps-micro.yml
-
+  status: loaded for NATIVE from configserver/ps-micro.yml
 
 ---
 spring:
