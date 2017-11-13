@@ -1,3 +1,9 @@
 configserver:
   name: micro config server
   status: loaded from configserver/ps-micro.yml
+
+spring:
+  profiles:
+    include:
+      application
+      application-dev
